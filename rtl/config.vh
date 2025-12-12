@@ -230,13 +230,13 @@
     `define __RMW_CYCLE__
 `endif
 
-// interactive simulation:
+// interactive simulation: Super Cool and Crazy! ChipCamp like this very much! 20251212
 //
 // When enabled, will trick the simulator in order to enable interactive
 // access via the stdin, in a way that is possible type interactive commands,
 // which will make your simulator crazy! unfortunately, it works only with
 // iverilog... at least, Xilinx ISIM does not liket the $fgetc()
-//`define __INTERACTIVE__
+`define __INTERACTIVE__
 
 // icarus register debug:
 //
